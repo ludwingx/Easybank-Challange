@@ -1,0 +1,49 @@
+.footer{
+    background-color:  hsl(233, 26%, 24%);
+}
+.footerStart{
+    .col:hover{
+        cursor: pointer;
+    }
+    svg:hover path{
+
+
+        fill: hsl(136, 65%, 51%);  
+    }
+}
+.footerMiddle{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        li{
+            padding-bottom: 5px;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: 'Public Sans', sans-serif;
+                line-height: 18px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: 0.3s;
+
+            }
+            a:hover{
+                text-decoration: underline;
+                color:  hsl(136, 65%, 51%);
+                transition: 0.3s;
+
+            }
+        }
+    }
+}
+.footerEnd{
+    text-align: end;
+    padding-top: 30px;
+    color: white;
+}
