@@ -47,3 +47,20 @@
     padding-top: 30px;
     color: white;
 }
+.btn-col{
+    padding-bottom: 10px ;
+}
+.btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+
+    cursor: pointer;
+    &:hover{
+        background-image: linear-gradient(to right, hsl(136, 65%, 60%), hsl(192, 70%, 60%));
+    
+    }
+}

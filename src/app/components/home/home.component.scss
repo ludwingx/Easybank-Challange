@@ -1,5 +1,37 @@
-.img-fluid{
-    max-width: 100%;
-    height: auto;
 
+.btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 35px 10px 35px;
+
+    cursor: pointer;
+    &:hover{
+        background-image: linear-gradient(to right, hsl(136, 65%, 60%), hsl(192, 70%, 60%));
+        
+    }
+}
+
+.imgBgIntro{
+    max-width: 100%;
+    height: 350px;
+    margin-bottom: -70px;
+}
+//easybank div de imagen cellphone
+.imgs{
+    .img-home{
+
+        img{
+            max-width: 100%;
+            height: auto;
+            //mover a la derecha de la pantalla cortando la imagen
+            margin-top: -80px;
+
+            margin-bottom: -120px;
+
+        }
+    }
+    
 }

@@ -1,0 +1,39 @@
+.btn-eb{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    &:hover{
+        background-image: linear-gradient(to right, hsl(136, 65%, 60%), hsl(192, 70%, 60%));
+    
+    }
+}
+.nav-link{
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Public Sans', sans-serif;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+    &:hover{
+        cursor: pointer;
+        color: black;
+        font-weight: 700;
+        border-bottom: 3px solid hsl(136, 65%, 51%);
+    }
+    &:active{
+        color: hsl(136, 65%, 51%);
+    }
+}
+.navbar-brand{
+    img{
+        width: 50px;
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+}
